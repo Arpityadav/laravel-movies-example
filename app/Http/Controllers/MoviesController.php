@@ -35,8 +35,6 @@ class MoviesController extends Controller
             ->json();
 
 
-        dump($movie);
-//        dump($credits);
         return view('show', compact('movie'));
     }
 }
